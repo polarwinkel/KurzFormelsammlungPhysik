@@ -1,3 +1,6 @@
+% This File is (c) by Dirk Winkel
+% Licenced under GPL v3 or newer
+
 \documentclass[12pt,a4paper,oneside]{article}
 % -----------------------------------------------------------------------------------------
 \usepackage[utf8]{inputenc}
@@ -55,6 +58,8 @@
 
 \DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
 
+\setlength{\abovedisplayskip}{7pt}
+\setlength{\belowdisplayskip}{7pt}
 ~
 \begin{center}
 \vspace{-1.0cm}
@@ -125,6 +130,10 @@ El. Schwingkreis:
 $$ T = 2\pi \sqrt{L \cdot C} $$
 Wellenlänge:
 $$ \lambda = c \cdot T $$
+akkustischer Dopplereffekt:
+$$ f' = f \cdot \frac{c-v_E}{c-v_S} $$
+optischer Dopplereffekt:
+$$ f = f' \cdot \sqrt{\frac{c-v}{c+v}} $$
 
 \subsection*{Quantenphysik}
 Interferenzbedingung:
@@ -197,6 +206,7 @@ Ist dabei das \textit{Kreuzprodukt} $\times$ angegeben müsssen die Größen sen
  Erdbeschl.(Mitteleuropa): $$ 9,81 \frac{m}{s^2} $$ \\
  Erdmasse: $$ 5,974 \cdot 10^{24} kg $$ \\
  Erdradius (mittlerer): $$ 6367 km $$ \\
+ Schallgeschwindigkeit (ca): $$ c \approx 340\frac{m}{s} $$ \\
  Lichtgeschwindigkeit: $$ 2,998*10^8 \frac{m}{s} $$ \\
  Gravitationskonstante: $$ 6,674\cdot 10^{-11}\frac{m^3}{kg \cdot s^2} $$\\
  Elektrische Feldkonstante: $$ \varepsilon_0 = 8,854\cdot 10^{-12}\frac{As}{Vm} $$ \\
@@ -210,32 +220,6 @@ Ist dabei das \textit{Kreuzprodukt} $\times$ angegeben müsssen die Größen sen
  Boltzmann-Konstante: $$ k_B = 1,381\cdot 10^{-23} \frac{J}{K} $$
 \end{multicols}
 
-\cfoot{\tiny{Version 1.6 -- \copyright 2014-2017 Dirk Winkel, \LaTeX-Source and document licenced under GPL version 3 or newer -- download: polarwinkel.de}}
-
-% -----------------------------------------------------------------------------------------
-%	Elemente
-% -----------------------------------------------------------------------------------------
-% Waagerechte Linie neben Text
-%\hrulefill \\
-% Weitere Waagerechte Linie
-%\vspace{0.3cm}\hrule~ \\
-
-% Rahmen mit Zeilenumbruch
-%\begin{framed}
-%\end{framed}
-% ohne Zeilenumbruch
-%\framebox[2cm][c]{\textbf{Prost!}}
-
-% Formel mit Nummerierung
-%\begin{align*}
-%2 Duff + 2 Duff = ? \tag{1}\label{duff}
-%\end{align*}
-% Verweis auf die Formel
-%Trinke die in Gleichung (\ref{duff}) ermittelte Menge Duff-Bier! 
-
-% Bild im Fließtext
-%\begin{floatingfigure}[l]{3cm}
-%\includegraphics[width=3cm]{duff} 
-%\end{floatingfigure}
+\cfoot{\tiny{Version 1.7 -- \copyright 2014-2017 Dirk Winkel, \LaTeX-Source and document licenced under GPL version 3 or newer -- download: polarwinkel.de}}
 
 \end{document}
