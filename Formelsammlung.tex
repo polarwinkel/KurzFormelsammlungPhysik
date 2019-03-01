@@ -39,14 +39,15 @@
 \usepackage{mathtools}
 % -----------------------------------------------------------------------------------------
 \begin{document}
-% -----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
 %	 Titel
 % -----------------------------------------------------------------------------------------
 %\headheight0cm\headsep0cm\topskip0cm\footskip0cm
 \pagestyle{fancy} %eigener Seitenstil
 \fancyhf{} %alle Kopf- und Fußzeilenfelder bereinigen
-\fancyhead[L]{Gymnasiale Oberstufe Physik} %Kopfzeile links
-\fancyhead[C]{Kurz-Formelsammlung} %zentrierte Kopfzeile
+\fancyhead[L]{Gymnasiale Oberstufe} %Kopfzeile links
+\fancyhead[C]{Kurz-Formelsammlung Physik} %zentrierte Kopfzeile
 \fancyhead[R]{Seite \thepage/\ref{TotPages}} %Kopfzeile rechts
 \renewcommand{\headrulewidth}{0.1mm} %obere Trennlinie
 \headheight1cm
@@ -62,7 +63,7 @@
 \setlength{\belowdisplayskip}{7pt}
 ~
 \begin{center}
-\vspace{-1.0cm}
+\vspace{-1.8cm}
 {\Large \textbf{Physikalische Formeln für die Oberstufe}}
 \end{center}
 % -----------------------------------------------------------------------------------------
@@ -129,7 +130,7 @@ $$ T = 2\pi \sqrt{\frac{l}{g}} $$
 El. Schwingkreis:
 $$ T = 2\pi \sqrt{L \cdot C} $$
 Wellenlänge:
-$$ \lambda = c \cdot T $$
+$$ \lambda = c \cdot T = \frac{c}{f} $$
 akkustischer Dopplereffekt:\\
 ($E$-Position positiv/``rechts'')
 $$ f' = f \cdot \frac{c-v_E}{c-v_S} $$
@@ -151,8 +152,11 @@ $$ \Delta E \cdot \Delta t = \Delta x \cdot \Delta p \geq \frac{h}{2\pi} = \hbar
 \subsection*{Relativitätstheorie}
 Energie-Masse-Beziehung:
 $$ E = mc^2 $$
-Lorenz-Transformation:
-$$ m = \frac{m_0}{\sqrt{1-(\frac{v}{c})^2}} $$
+Lorentz-Faktor:
+$$ \gamma = \sqrt{1-(\frac{v}{c})^2} $$
+Lorenz-Transformation:\\
+(analog für: $s, l, t'$)
+$$ m = m_0 \gamma $$
 
 \subsection*{weitere}
 Zerfallsgesetz:
@@ -221,6 +225,6 @@ Ist dabei das \textit{Kreuzprodukt} $\times$ angegeben müsssen die Größen sen
  Boltzmann-Konstante: $$ k_B = 1,381\cdot 10^{-23} \frac{J}{K} $$
 \end{multicols}
 
-\cfoot{\tiny{Version 1.7.1 -- \copyright 2014-2017 Dirk Winkel, \LaTeX-Source and document licenced under GPL version 3 or newer -- download: polarwinkel.de}}
+\cfoot{\tiny{Version 1.8.0 -- \copyright 2014-2019 Dirk Winkel, \LaTeX-Source and document licenced under GPL version 3 or newer -- download: polarwinkel.de}}
 
 \end{document}

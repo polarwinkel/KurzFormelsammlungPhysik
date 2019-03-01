@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.7.6)  8 NOV 2017 11:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.16)  1 MAR 2019 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Formelsammlung.tex
 (./Formelsammlung.tex
-LaTeX2e <2017/01/01> patch level 3
-Babel <3.9r> and hyphenation patterns for 8 language(s) loaded.
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 8 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -342,7 +342,7 @@ Now handling font encoding U ...
    defining Unicode char U+2423 (decimal 9251)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
@@ -410,7 +410,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2015/03/04 v2.20.2
+Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks21
 \thm@bodyfont=\toks22
 \thm@headfont=\toks23
@@ -436,8 +436,11 @@ Package: amsxtra 1999/11/15 v1.2c AMS extra commands
 LaTeX Info: Redefining \nobreakspace on input line 54.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2016/04/23 3.9r The Babel package
+Package: babel 2018/02/14 3.18 The Babel package
 
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
 (/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf
 Language: ngerman 2016/11/02 v2.9 German support for babel (new orthography)
 
@@ -445,9 +448,12 @@ Language: ngerman 2016/11/02 v2.9 German support for babel (new orthography)
 Language: ngermanb 2016/11/02 v2.9 German support for babel (new orthography)
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2016/04/23 3.9r Babel common definitions
+File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count99
 \U@D=\dimen112
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count100
 )
 Package babel Info: Making " an active character on input line 125.
 )))
@@ -459,7 +465,7 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks27
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
@@ -468,9 +474,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count100
-\Gm@cntv=\count101
-\c@Gm@tempcnt=\count102
+\Gm@cnth=\count101
+\Gm@cntv=\count102
+\c@Gm@tempcnt=\count103
 \Gm@bindingoffset=\dimen113
 \Gm@wd@mp=\dimen114
 \Gm@odd@mp=\dimen115
@@ -499,7 +505,7 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 \UL@skip=\skip49
 \UL@hook=\toks29
 \UL@height=\dimen121
-\UL@pe=\count103
+\UL@pe=\count104
 \UL@pixel=\dimen122
 \ULC@box=\box30
 Package: ulem 2012/05/18
@@ -514,31 +520,23 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 147.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count104
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/marvosym.sty
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2017/02/22 v2.0g Standard LaTeX package
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2017/02/22 v2.0g Standard LaTeX file
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -603,7 +601,7 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \rot@mess@toks=\toks31
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -612,8 +610,8 @@ Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
@@ -626,7 +624,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -659,7 +657,7 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 \Hy@pagecounter=\count111
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -668,42 +666,41 @@ Now handling font encoding PD1 ...
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4486.
-Package hyperref Info: Link nesting OFF on input line 4491.
-Package hyperref Info: Hyper index ON on input line 4494.
-Package hyperref Info: Plain pages OFF on input line 4501.
-Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4735.
+Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count113
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5088.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen142
 \Fld@menulength=\count114
 \Field@Width=\dimen143
 \Fld@charsize=\dimen144
-Package hyperref Info: Hyper figures OFF on input line 6342.
-Package hyperref Info: Link nesting OFF on input line 6347.
-Package hyperref Info: Hyper index ON on input line 6350.
-Package hyperref Info: backreferencing OFF on input line 6357.
-Package hyperref Info: Link coloring OFF on input line 6362.
-Package hyperref Info: Link coloring with OCG OFF on input line 6367.
-Package hyperref Info: PDF/A mode OFF on input line 6372.
-LaTeX Info: Redefining \ref on input line 6412.
-LaTeX Info: Redefining \pageref on input line 6416.
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
 \Hy@abspage=\count115
 \c@Item=\count116
 \c@Hfootnote=\count117
 )
-
-Package hyperref Message: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count118
 \c@bookmark@seq@number=\count119
 
@@ -737,16 +734,17 @@ Package: floatflt 1997/07/16 v. 1.31
 \outputpretest=\toks32
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
-\fancy@headwidth=\skip58
-\f@ncyO@elh=\skip59
-\f@ncyO@erh=\skip60
-\f@ncyO@olh=\skip61
-\f@ncyO@orh=\skip62
-\f@ncyO@elf=\skip63
-\f@ncyO@erf=\skip64
-\f@ncyO@olf=\skip65
-\f@ncyO@orf=\skip66
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip58
+\f@nch@O@elh=\skip59
+\f@nch@O@erh=\skip60
+\f@nch@O@olh=\skip61
+\f@nch@O@orh=\skip62
+\f@nch@O@elf=\skip63
+\f@nch@O@erf=\skip64
+\f@nch@O@olf=\skip65
+\f@nch@O@orf=\skip66
 )
 (/usr/share/texlive/texmf-dist/tex/latex/totpages/totpages.sty
 Package: totpages 2005/09/19 v2.00 Totpages Package (muewi)
@@ -763,7 +761,7 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameSep=\dimen156
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \c@tracingmulticols=\count127
 \mult@box=\box35
 \multicol@leftmargin=\dimen157
@@ -847,7 +845,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
@@ -863,7 +861,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Cskip=\skip72
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
@@ -956,7 +954,7 @@ Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
@@ -985,120 +983,120 @@ LaTeX Info: Redefining \nameref on input line 41.
 
 
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 76.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 77.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 76.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 77.
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 77.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 76.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 77.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 76.
+(Font)              <12> on input line 77.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 76.
+(Font)              <8> on input line 77.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 76.
-LaTeX Font Info:    Try loading font information for U+msa on input line 76.
+(Font)              <6> on input line 77.
+LaTeX Font Info:    Try loading font information for U+msa on input line 77.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 76.
+LaTeX Font Info:    Try loading font information for U+msb on input line 77.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 76.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 77.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \hbox (badness 5175) in paragraph at lines 120--121
+Underfull \hbox (badness 5175) in paragraph at lines 121--122
 \T1/lmr/m/n/12 Allgemeine Schwin-gungs-glei-
  []
 
 
-Overfull \vbox (9.6469pt too high) has occurred while \output is active []
+Overfull \vbox (6.1814pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 168.
 
 [1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 185--194
+Underfull \hbox (badness 10000) in paragraph at lines 189--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--199
+Underfull \hbox (badness 10000) in paragraph at lines 199--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--202
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
 
  []
 
 
-Underfull \hbox (badness 6775) in paragraph at lines 218--219
+Underfull \hbox (badness 6775) in paragraph at lines 222--223
 \T1/lmr/m/n/12 Planck'sches Wir-kungs-quan-
  []
 
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 226.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 230.
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 226.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 230.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 226.
+(Font)              <5> on input line 230.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 226.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 226.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 226.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 226.
+(babel)             in language  on input line 230.
  [2.2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 230.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 230.
  (./Formelsammlung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 230.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 230.
 Package rerunfilecheck Info: File `Formelsammlung.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 230.
  ) 
 Here is how much of TeX's memory you used:
- 9249 strings out of 494893
- 130007 string characters out of 6178673
- 253765 words of memory out of 5000000
- 12316 multiletter control sequences out of 15000+600000
+ 9289 strings out of 494871
+ 130950 string characters out of 6178381
+ 255062 words of memory out of 5000000
+ 12378 multiletter control sequences out of 15000+600000
  50313 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 34i,14n,43p,291b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,14n,43p,300b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -1111,7 +1109,7 @@ blic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Formelsammlung.pdf (2 pages, 194176 bytes).
+Output written on Formelsammlung.pdf (2 pages, 194615 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream
