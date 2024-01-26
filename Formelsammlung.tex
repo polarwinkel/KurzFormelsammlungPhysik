@@ -62,8 +62,8 @@
 \setlength{\belowdisplayskip}{7pt}
 ~
 \begin{center}
-\vspace{-1.5cm}
-{\Large \textbf{Physikalische Formeln für die Oberstufe}}
+\vspace{-2.5cm}
+%{\Large \textbf{Physikalische Formeln für die Oberstufe}}
 \end{center}
 % -----------------------------------------------------------------------------------------
 %	Hauptext
@@ -101,15 +101,17 @@ $$ \abs{\vec{F}}=\frac{1}{4\pi \varepsilon_0}\frac{q \cdot Q}{\abs{\vec{r}}^2} $
 El. Feldstärke:
 $$ \vec{E}=\frac{\vec{F}}{q} $$
 El. Potentialdifferenz:
-$$ \frac{\Delta E_{pot}}{q} = \Delta \Phi =  U $$
+$$ \frac{\Delta E_{pot}}{q} = \Delta \varphi =  U $$
 Plattenkondensator:
 $$ \vec{E}=\frac{U}{\vec{d}} $$
 $$ C=\varepsilon_0\varepsilon_r\frac{A}{d} = \frac{Q}{U} $$
 $$ E = \frac{1}{2} C \cdot U^2 $$
 Lorentzkraft:
 $$ \vec{F_L}=q\cdot \vec{v} \times \vec{B} $$
-Induktionsspannung:
+Induktionsspannung (Stab):
 $$ U_{ind}=\abs{\vec{B}\cdot l \times \vec{v}} $$
+Induktionsspannung (Spule):
+$$ U_{ind}=n \cdot \frac{\Delta \left(\vec{B}\cdot \vec{A}\right)}{\Delta t} = n \cdot \frac{\Delta \Phi}{\Delta t} $$
 Induktivität (Spule):
 $$ L = \mu_0 \mu_r \cdot \frac{n^2}{l}A $$
 Magn. Feld (lange Spule):
@@ -118,7 +120,7 @@ Energie (lange Spule):
 $$ E = \frac{1}{2}L\cdot I^ 2 $$
 
 \subsection*{Schwingungen\\ und Wellen}
-Allgemeine Schwingungsgleichung:
+Allgem. Schwingungsgleichung:
 $$ A \cdot sin(\omega t - \varphi) $$
 Schwingungsdauer und\\
 (Kreis-)Frequenz:
@@ -135,14 +137,14 @@ akkustischer Dopplereffekt:\\
 ($E$-Position positiv/``rechts'')
 $$ f' = f \cdot \frac{c-v_E}{c-v_S} $$
 optischer Dopplereffekt:
-$$ f = f' \cdot \sqrt{\frac{c-v}{c+v}} $$
+$$ f' = f \cdot \sqrt{\frac{c+v}{c-v}} $$
 
 \subsection*{Quantenphysik}
 Interferenzbedingung:
 $$ g \cdot sin(\alpha) = n \cdot \lambda $$
 Bragg-Bedingung:
 $$ 2 g \cdot sin(\alpha) = n \cdot \lambda $$
-deBroglie-Wellenlänge:
+De-Broglie-Wellenlänge:
 $$ \lambda = \frac{h}{p} $$
 Photonenenergie:
 $$ E = h \cdot f $$
@@ -153,7 +155,7 @@ $$ \Delta E \cdot \Delta t = \Delta x \cdot \Delta p \geq \frac{h}{2\pi} = \hbar
 Energie-Masse-Beziehung:
 $$ E = mc^2 $$
 Lorentz-Faktor:
-$$ \gamma = \sqrt{1-(\frac{v}{c})^2} $$
+$$ \gamma = \sqrt{1-\left(\frac{v}{c}\right)^2} $$
 Lorenz-Transformation:\\
 (analog für: $s, l, t'$)
 $$ m = m_0 \gamma $$
@@ -166,7 +168,7 @@ $$ p \cdot V = n_{Teilchen} \cdot k_B \cdot T $$
 
 
 \end{multicols}
-\emph{Hinweis:} Formelzeichen mit Pfeien ($\vec{Z}$) sind richtungsabhängige (=\textit{vektorielle}) Größen, ggf. muss die Richtung, z.B. als Vorzeichen, beachtet werden!
+\emph{Hinweis:} Formelzeichen mit Pfeilen ($\vec{Z}$) sind richtungsabhängige (=\textit{vektorielle}) Größen, ggf. muss die Richtung, z.B. als Vorzeichen, beachtet werden!
 
 Ist dabei das \textit{Kreuzprodukt} $\times$ angegeben müsssen die Größen senkrecht zueinander sein um mit den Zahlenwerten (= \textit{Beträgen} $\abs{\vec{Z}}$) und $\cdot$ rechnen zu können. ($\rightarrow$ linke/rechte-Hand-Regeln)
 
@@ -189,9 +191,11 @@ Ist dabei das \textit{Kreuzprodukt} $\times$ angegeben müsssen die Größen sen
  $q$: Ladung (einzeln) ($C=As$) \\
  $Q$: Gesamtladung ($C$) \\
  $U$: Spannung ($V=\frac{J}{C}$) \\
+ $\varphi$: el. Potential ($V$) \\
  $A$: Fläche ($m^2$) \\
  $C$: Kapazität ($F=\frac{C}{V}$) \\
  $\vec{B}$: Magn. Flussdichte ($T$) \\
+ $\Phi$: Magn. Fluss ($T \cdot m^2 = V \cdot s $) \\
  $\vec{E}$: el. Feldstärke ($\frac{N}{C}$) \\
  $R$: el. Widerstand ($\Omega=\frac{V}{A}$) \\
  $L$: Induktivität ($H = \Omega s$) \\
@@ -229,6 +233,6 @@ Ist dabei das \textit{Kreuzprodukt} $\times$ angegeben müsssen die Größen sen
 
 Werten mit '$=$'-Angabe sind in der Definition der Maßeinheiten die exakten Werte zugewiesen.
 
-\cfoot{\tiny{Version 1.9.1 -- \copyright 2014-2019 Dirk Winkel, \LaTeX-Source and document licenced under GPL version 3 or newer -- download: polarwinkel.de}}
+\cfoot{\tiny{Version 1.10.1 -- \copyright 2014-2024 Dirk Winkel, \LaTeX-Source and document licenced under GPL version 3 or newer -- download: polarwinkel.de}}
 
 \end{document}
